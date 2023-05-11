@@ -10,12 +10,12 @@ document.addEventListener('DOMContentLoaded', () => {
     let topSCorerEle = document.querySelector('.top-scorer-content')
 
     // Fetching the Top Score from Local Storage
-    // if(topScoreChanged) {
+    if(topScoreChanged) {
     let t = localStorage.getItem('topscore')
     topSCoreEle.innerHTML = t
     let topper = localStorage.getItem('topscorer')
     topSCorerEle.innerHTML = topper
-    // }
+    }
 
     
     const bird = document.querySelector('.bird')
